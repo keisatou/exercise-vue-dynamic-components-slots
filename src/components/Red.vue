@@ -3,7 +3,14 @@
 </template>
 
 <script>
-
+export default {
+  activated() {
+    console.log('Red.vue Activated!');
+  },
+  deactivated() {
+    console.log('Red.vue Deactivated!');
+  },
+};
 </script>
 
 <style scoped>
