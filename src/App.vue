@@ -10,7 +10,7 @@
         {{ selectedComponent }}
         <keep-alive>
           <component :is="selectedComponent">
-            <p>Default slot content</p>
+          <p>Default slot content</p>
           </component>
         </keep-alive>
       </div>
