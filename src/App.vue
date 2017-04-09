@@ -9,7 +9,9 @@
         <hr>
         {{ selectedComponent }}
         <keep-alive>
-          <component :is="selectedComponent"></component>
+          <component :is="selectedComponent">
+            <p>Default slot content</p>
+          </component>
         </keep-alive>
       </div>
     </div>
